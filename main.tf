@@ -18,6 +18,11 @@ resource "azurerm_resource_group" "rg_todo" {
     location = "East Us"
 }
 
+resource "azurerm_resource_group" "rg_todo-1" {
+    name     = "Jitu-1"
+    location = "East Us"
+}
+
 
 
 
